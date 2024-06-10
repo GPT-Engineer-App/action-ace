@@ -26,7 +26,7 @@ const Index = () => {
   };
 
   return (
-    <Container centerContent maxW="container.md" py={10}>
+    <Container centerContent maxW="container.md" py={10} minH="80vh">
       <VStack spacing={4} w="100%">
         <HStack w="100%">
           <Input 
