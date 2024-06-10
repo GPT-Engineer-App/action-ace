@@ -1,5 +1,5 @@
 import { Box, Flex, Text, Link, Spacer, IconButton } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 
@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <Box display={{ base: "block", md: "none" }} onClick={() => changeDisplay(display === "none" ? "flex" : "none")}>
           <IconButton
-            icon={display === "none" ? <HamburgerIcon /> : <CloseIcon />}
+            icon={display === "none" ? <FaBars /> : <FaTimes />}
             variant="outline"
             aria-label="Menu"
           />
