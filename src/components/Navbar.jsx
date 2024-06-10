@@ -52,6 +52,9 @@ const Navbar = () => {
             <Link as={RouterLink} to="/about" mt={{ base: 4, md: 0 }} mr={6} display="block">
               About
             </Link>
+            <Link as={RouterLink} to="/events" mt={{ base: 4, md: 0 }} mr={6} display="block">
+              Events
+            </Link>
             <Link as={RouterLink} to="/contact" mt={{ base: 4, md: 0 }} display="block">
               Contact
             </Link>
